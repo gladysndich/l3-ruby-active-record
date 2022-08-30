@@ -1,5 +1,5 @@
-# require_relative './config/environment'
-# require 'sinatra/activerecord/rake'
+require_relative './config/environment'
+require 'sinatra/activerecord/rake'
 
 # CREATE TASK WITHOUT DESCRIPTION
 task :hello_world do
